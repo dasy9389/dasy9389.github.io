@@ -277,7 +277,7 @@ section{
 
 .packages .box-container{
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
 	gap: 1.5rem;
 }
 .packages .box-container .box{
@@ -335,7 +335,7 @@ section{
 
 .services .box-container{
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
 	gap: 1.5rem;
 }
 .services .box-container .box{
@@ -378,7 +378,7 @@ section{
 
 .pricing .box-container{
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
 	gap: 1.5rem;
 }
 .pricing .box-container .box{
@@ -487,7 +487,7 @@ section{
 
 .blogs .box-container{
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
 	gap: 1.5rem;
 }
 .blogs .box-container .box{
