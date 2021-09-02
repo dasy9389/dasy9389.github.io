@@ -48,3 +48,47 @@ themeBtn.onclick = function(){
 		document.body.classList.remove('active');
 	}
 }
+
+
+
+//slider
+const sliderContainer = document.querySelector('.slider-container');
+const sliderTouch = document.querySelector('.review-slider');
+const box = document.querySelectorAll('.slide');
+let width = box[0].offsetWidth + 30;
+
+sliderTouch.style.minWidth = `${box.length * width}px`;
+
+let start;
+let change;
+
+sliderContainer.addEventListener('mousedown', function(e){
+	start = e.clientX;
+});
+sliderContainer.addEventListener('mousemove', function(e){
+	e.preventDefault();
+	let touch = e.clientX;
+	change = start - touch;
+});
+sliderContainer.addEventListener('mouseup',slideShow);
+
+//touch events on mobile,tablet
+sliderContainer.addEventListener('touchstart', function(e){
+	start = e.touches[0].clientX;
+});
+
+sliderContainer.addEventListener('touchmove', function(e){
+	e.preventDefault();
+	let touch = e.touches[0];
+	change = start - touch.clientX;
+});
+sliderContainer.addEventListener('touchend',slideShow);
+
+function slideShow(){
+	if(change > 0){
+		sliderContainer.scrollLeft += width;
+	}
+	else{
+		sliderContainer.scrollLeft -= width;
+	}
+}
