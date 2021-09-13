@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.js": "/reactjs/portfolios/static/js/main.d46fbe2e.chunk.js",
+    "main.js.map": "/reactjs/portfolios/static/js/main.d46fbe2e.chunk.js.map",
+    "runtime-main.js": "/reactjs/portfolios/static/js/runtime-main.f05c384e.js",
+    "runtime-main.js.map": "/reactjs/portfolios/static/js/runtime-main.f05c384e.js.map",
+    "static/js/2.83f85503.chunk.js": "/reactjs/portfolios/static/js/2.83f85503.chunk.js",
+    "static/js/2.83f85503.chunk.js.map": "/reactjs/portfolios/static/js/2.83f85503.chunk.js.map",
+    "index.html": "/reactjs/portfolios/index.html",
+    "static/js/2.83f85503.chunk.js.LICENSE.txt": "/reactjs/portfolios/static/js/2.83f85503.chunk.js.LICENSE.txt",
+    "static/media/avatar.0945d7c4.jpg": "/reactjs/portfolios/static/media/avatar.0945d7c4.jpg",
+    "static/media/blog1.7ecbb78c.svg": "/reactjs/portfolios/static/media/blog1.7ecbb78c.svg",
+    "static/media/blog2.09939351.svg": "/reactjs/portfolios/static/media/blog2.09939351.svg",
+    "static/media/blog3.6291ee7c.svg": "/reactjs/portfolios/static/media/blog3.6291ee7c.svg",
+    "static/media/blog4.60aa6cec.svg": "/reactjs/portfolios/static/media/blog4.60aa6cec.svg",
+    "static/media/cv_css.81d94986.png": "/reactjs/portfolios/static/media/cv_css.81d94986.png",
+    "static/media/design.8ecb3043.svg": "/reactjs/portfolios/static/media/design.8ecb3043.svg",
+    "static/media/game-dev.20147858.svg": "/reactjs/portfolios/static/media/game-dev.20147858.svg",
+    "static/media/intelligence.11bd2ab2.svg": "/reactjs/portfolios/static/media/intelligence.11bd2ab2.svg",
+    "static/media/maya-3.8bd072e0.jpg": "/reactjs/portfolios/static/media/maya-3.8bd072e0.jpg",
+    "static/media/maya-4.98e8029e.jpg": "/reactjs/portfolios/static/media/maya-4.98e8029e.jpg",
+    "static/media/ms.08be9db5.png": "/reactjs/portfolios/static/media/ms.08be9db5.png",
+    "static/media/react_styled.c23ef94e.png": "/reactjs/portfolios/static/media/react_styled.c23ef94e.png",
+    "static/media/resume.127063d1.jpg": "/reactjs/portfolios/static/media/resume.127063d1.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f05c384e.js",
+    "static/js/2.83f85503.chunk.js",
+    "static/js/main.d46fbe2e.chunk.js"
+  ]
+}
