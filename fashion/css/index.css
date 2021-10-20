@@ -541,7 +541,7 @@ header.active{
 }
 
 /*swiper js*/
-.product-slider{
+.product-slider, .review-slider{
 	overflow-x: hidden;
 	position: relative;
 }
