@@ -145,16 +145,16 @@ if (picContainer) {
 
 // change active image
 const changeImage = (imgSrc, n) => {
-// change the main image
-pic.src = imgSrc;
-// change the background-image
-zoom.style.backgroundImage = `url(${imgSrc})`;
-//   remove the border from the previous active side image
-picList[picActive - 1].classList.remove("img-active");
-// add to the active image
-picList[n - 1].classList.add("img-active");
-//   update the active side picture
-picActive = n;
+    // change the main image
+    pic.src = imgSrc;
+    // change the background-image
+    zoom.style.backgroundImage = `url(${imgSrc})`;
+    //   remove the border from the previous active side image
+    picList[picActive - 1].classList.remove("img-active");
+    // add to the active image
+    picList[n - 1].classList.add("img-active");
+    //   update the active side picture
+    picActive = n;
 };
 
 // Product Details Bottom
