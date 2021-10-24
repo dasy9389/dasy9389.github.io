@@ -183,3 +183,50 @@ if (detail) {
     }
   });
 }
+
+// click plus-minus
+const minus = document.querySelectorAll('.minus-btn');
+const plus = document.querySelectorAll('.plus-btn');
+
+
+// let a = 1;
+
+// plus.addEventListener('click', () => {
+//   a++;
+//   a = (a < 10) ? '0' + a : a;
+//   counter.innerText = a;
+// });
+
+// minus.addEventListener('click', () => {
+//   if(a > 1){
+//     a--;
+//     a = (a < 10) ? '0' + a : a;
+//     counter.innerText = a;
+//   }
+// });
+
+for(let i = 0; i < plus.length; i++){
+    let btn = plus[i];
+    btn.addEventListener('click', e => {
+        const btnClicked = e.target;
+        let input = btnClicked.parentElement.children[1];
+        let inputValue = input.value;
+        let newValue = parseInt(inputValue) + 1;
+        input.value = newValue;
+    })
+}
+
+for(let i = 0; i < minus.length; i++){
+    let btn = minus[i];
+    btn.addEventListener('click', e => {
+        const btnClicked = e.target;
+        let input = btnClicked.parentElement.children[1];
+        let inputValue = input.value;
+        let newValue = parseInt(inputValue) - 1;
+        if(newValue >= 0){
+            input.value = newValue;
+        }else{
+            input.value = 0;
+        }
+    })
+}

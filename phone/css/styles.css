@@ -107,7 +107,7 @@ span.dot::before {
 .plus-btn {
   display: inline-block;
   border: 1px solid var(--primaryColor);
-  padding: 0.8rem 1rem;
+  padding: 1rem 1rem 0.8rem;
   margin-right: 0;
   cursor: pointer;
 }
@@ -131,6 +131,7 @@ span.dot::before {
   width: 1.8rem;
   height: 1.8rem;
   fill: var(--grey3);
+  pointer-events: none;
 }
 
 /*header*/
@@ -999,7 +1000,7 @@ span.dot::before {
 @media only screen and (max-width: 1200px) {
   .minus-btn,
   .plus-btn {
-      padding: 0.6rem 0.8rem;
+      padding: 1.1rem 0.8rem 0.2rem;
       margin-right: 0;
   }
 
