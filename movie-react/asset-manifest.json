@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.507618bd.chunk.css",
-    "main.js": "/static/js/main.ccf189cd.chunk.js",
-    "main.js.map": "/static/js/main.ccf189cd.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.bb9bc222.js",
-    "runtime-main.js.map": "/static/js/runtime-main.bb9bc222.js.map",
-    "static/css/2.2894c9e2.chunk.css": "/static/css/2.2894c9e2.chunk.css",
-    "static/js/2.119d9c89.chunk.js": "/static/js/2.119d9c89.chunk.js",
-    "static/js/2.119d9c89.chunk.js.map": "/static/js/2.119d9c89.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.2894c9e2.chunk.css.map": "/static/css/2.2894c9e2.chunk.css.map",
-    "static/css/main.507618bd.chunk.css.map": "/static/css/main.507618bd.chunk.css.map",
-    "static/js/2.119d9c89.chunk.js.LICENSE.txt": "/static/js/2.119d9c89.chunk.js.LICENSE.txt",
-    "static/media/boxicons.css": "/static/media/boxicons.cbd149c5.ttf",
-    "static/media/footer-bg.67e95f05.jpg": "/static/media/footer-bg.67e95f05.jpg",
-    "static/media/tmovie.67797e94.png": "/static/media/tmovie.67797e94.png"
+    "main.css": "/movie-react/static/css/main.08648897.chunk.css",
+    "main.js": "/movie-react/static/js/main.ccf189cd.chunk.js",
+    "main.js.map": "/movie-react/static/js/main.ccf189cd.chunk.js.map",
+    "runtime-main.js": "/movie-react/static/js/runtime-main.fbc45816.js",
+    "runtime-main.js.map": "/movie-react/static/js/runtime-main.fbc45816.js.map",
+    "static/css/2.2894c9e2.chunk.css": "/movie-react/static/css/2.2894c9e2.chunk.css",
+    "static/js/2.119d9c89.chunk.js": "/movie-react/static/js/2.119d9c89.chunk.js",
+    "static/js/2.119d9c89.chunk.js.map": "/movie-react/static/js/2.119d9c89.chunk.js.map",
+    "index.html": "/movie-react/index.html",
+    "static/css/2.2894c9e2.chunk.css.map": "/movie-react/static/css/2.2894c9e2.chunk.css.map",
+    "static/css/main.08648897.chunk.css.map": "/movie-react/static/css/main.08648897.chunk.css.map",
+    "static/js/2.119d9c89.chunk.js.LICENSE.txt": "/movie-react/static/js/2.119d9c89.chunk.js.LICENSE.txt",
+    "static/media/boxicons.css": "/movie-react/static/media/boxicons.cbd149c5.ttf",
+    "static/media/footer-bg.67e95f05.jpg": "/movie-react/static/media/footer-bg.67e95f05.jpg",
+    "static/media/tmovie.67797e94.png": "/movie-react/static/media/tmovie.67797e94.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.bb9bc222.js",
+    "static/js/runtime-main.fbc45816.js",
     "static/css/2.2894c9e2.chunk.css",
     "static/js/2.119d9c89.chunk.js",
-    "static/css/main.507618bd.chunk.css",
+    "static/css/main.08648897.chunk.css",
     "static/js/main.ccf189cd.chunk.js"
   ]
 }
